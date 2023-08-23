@@ -77,12 +77,12 @@ body {
 #imagem-inicial {
     border-radius: 30px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #imagem-inicial img {
-    margin: 20px;
+    margin: 5px;
     max-width: 100%;
     height: auto;
     
