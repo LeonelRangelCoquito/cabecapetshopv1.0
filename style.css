@@ -1,6 +1,6 @@
 #imagem-inicial {
     max-width: 100%;
-    height: auto;
+    
     border-radius: 30px;
     text-align: center;
     display: flex;
@@ -8,6 +8,7 @@
     align-items: center;
     min-height: 50vh;
     margin-left:  5px;
+    
   }
   @media (min-width: 768px) {
     #imagem-inicial img {
@@ -21,8 +22,8 @@
     }
   }
   :root {
-    --laranja: #e0dbc1;
-    --vermelho: #c06450;
+    --laranja: #fff4c4;
+    --vermelho: #ff8fa8;
 }
 body {
     background-color: var(--laranja);
@@ -56,7 +57,7 @@ body {
     color: var(--laranja);
 }
 .container-fluid#imagem-inicial {
-    background: linear-gradient(to right, #b64f35, #ff8800)
+    background: linear-gradient(to right, #fff4c4, #ff8fa8)
 }
 .btn-secondary {
     background-color: var(--vermelho);
@@ -75,8 +76,8 @@ body {
     color: var(--vermelho);
 }
 .navbar {
-    background: linear-gradient(to right, #ff3300, #ffc400);
-    border: solid 1px black;
+    background: linear-gradient(to right, #ff9249, #ff8fa8);
+    border: solid 1px rgb(255, 255, 255);
     border-radius: 30px;
 }
 
