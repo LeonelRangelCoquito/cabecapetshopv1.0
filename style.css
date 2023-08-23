@@ -1,8 +1,13 @@
 #imagem-inicial {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Isso ajuda a centralizar a imagem verticalmente na tela inteira */
+    min-height: 100vh;
+    margin-left:  5px;
   }
   @media (min-width: 768px) {
     #imagem-inicial img {
@@ -12,7 +17,7 @@
   
   @media (min-width: 992px) {
     #imagem-inicial img {
-      max-width: 90%; /* Porcentagem do tamanho original */
+      max-width: 100%; /* Porcentagem do tamanho original */
     }
   }
   :root {
@@ -72,19 +77,6 @@ body {
 .navbar {
     background: linear-gradient(to right, #ff3300, #ffc400);
     border: solid 1px black;
-    border-radius: 3px;
-}
-#imagem-inicial {
     border-radius: 30px;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#imagem-inicial img {
-    margin: 5px;
-    max-width: 100%;
-    height: auto;
-    
 }
 
