@@ -6,13 +6,13 @@
   }
   @media (min-width: 768px) {
     #imagem-inicial img {
-      max-width: 70%; /* Porcentagem do tamanho original */
+      max-width: 90%; /* Porcentagem do tamanho original */
     }
   }
   
   @media (min-width: 992px) {
     #imagem-inicial img {
-      max-width: 50%; /* Porcentagem do tamanho original */
+      max-width: 90%; /* Porcentagem do tamanho original */
     }
   }
   :root {
