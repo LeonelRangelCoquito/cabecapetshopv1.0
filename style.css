@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     margin:  5px;
     
   }
@@ -57,7 +56,8 @@ body {
     color: var(--laranja);
 }
 .container-fluid#imagem-inicial {
-    background: linear-gradient(to right, #fff4c4, #ff8fa8)
+    background: white;
+    margin: 1px;
 }
 .btn-secondary {
     background-color: var(--vermelho);
@@ -82,4 +82,10 @@ body {
 }
 header{
     font-size: 30px;
+}
+
+
+/* pagina sobré nós */
+.col-md-5{
+    background-color: #ff8fa8;
 }
